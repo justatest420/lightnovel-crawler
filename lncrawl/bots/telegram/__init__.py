@@ -29,7 +29,7 @@ class TelegramBot:
         os.environ["debug_mode"] = "yes"
 
         # Build the Application and with bot's token.
-        TOKEN = os.getenv("TELEGRAM_TOKEN", "")
+        TOKEN = os.getenv("TELEGRAM_TOKEN", "5123263018:AAFhrk204_c3NTupbt5aJ87tOOUVfCcrzA4")
         self.application = Application.builder().token(TOKEN).build()
 
         # Add a command helper for help
