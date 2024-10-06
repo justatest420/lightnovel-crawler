@@ -19,7 +19,7 @@
     },
     "BOT": {
       "description": "Available: console, discord, telegram",
-      "value": "discord",
+      "value": "telegram",
       "required": true
     },
     "TELEGRAM_TOKEN": {
